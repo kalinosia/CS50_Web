@@ -227,3 +227,55 @@ a:hover{
 	text-decoration: underline;
 	color:#1a0dab;
 }
+
+
+
+
+
+
+#logosubtext{
+	color: #4285f4;
+font: 16px/16px roboto-regular, arial, sans-serif;
+left: 105px;
+position: relative;
+top: -20px;
+white-space: nowrap;
+}
+.picpng{
+	flex: 1 0 auto;
+display: flex;
+cursor: pointer;
+align-items: center;
+border: 0;
+background: transparent;
+outline: none;
+padding: 0 8px;
+width: 24px;
+line-height: 44px;
+}
+.picspan{
+	background:url('pic.png') 0 0 no-repeat;
+	height:24px;
+	width:24px;
+	background-size:24px;
+}
+
+
+.searchbuttonpic{
+	flex: 1 0 auto;
+display: flex;
+cursor: pointer;
+align-items: center;
+border: 0;
+background: transparent;
+outline: none;
+padding: 0 14px;
+width: 24px;
+line-height: 44px;
+}
+.searchbutton{
+	vertical-align:middle;
+	color: #4285f4;
+	fill: currentColor;
+line-height: 24px;
+}
